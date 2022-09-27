@@ -1,0 +1,177 @@
+* {
+  margin: 5px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  background-color: rgb(50, 16, 82);
+}
+.box3 {
+  margin: 0px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.time1 {
+  width: 536px;
+  height: 130px;
+  color: blueviolet;
+  font-size: 30px;
+  font-family: fantasy;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+  border-radius: 10px;
+  align-items: center;
+  opacity: 1;
+  margin-bottom: -120px;
+  z-index: 1;
+}
+
+.time2 {
+  width: 416px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: rgba(240, 248, 255, 0.7);
+  margin-bottom: -120px;
+}
+.time3 {
+  width: 379px;
+  height: 130px;
+  border-radius: 10px;
+  background-color: rgba(240, 248, 255, 0.3);
+}
+.min,
+.hrs,
+.sec {
+  height: 90px;
+  width: 82px;
+  border-radius: 5px;
+  background-color: rgb(227, 222, 231);
+  text-align: center;
+}
+.session1 {
+  height: 90px;
+  width: 82px;
+  border-radius: 5px;
+  color: white;
+  background-image: linear-gradient(rgb(94, 12, 172), rgb(209, 18, 184));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeinside {
+  color: rgb(84, 6, 116);
+  font-size: 25px;
+}
+.setalarm {
+  background-color: aliceblue;
+  color: rgb(66, 13, 116);
+  width: 566px;
+  height: 336px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.wakeup-time,
+.lunch-time,
+.nap-time,
+.night-time {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.line {
+  margin: 0px;
+  margin-left: 28px;
+  height: 30px;
+  border-left: 1px solid rgb(151, 146, 146);
+}
+
+select {
+  color: blueviolet;
+  width: 250px;
+  height: 30px;
+  border: 1px solid rgb(228, 165, 217);
+}
+.phrase {
+  width: 536px;
+  height: 118px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: rgb(61, 0, 117);
+}
+.whishing {
+  width: 566px;
+  height: 77px;
+  background-color: rgb(61, 0, 117);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 25px;
+  font-family: sans-serif;
+  color: aliceblue;
+}
+button {
+  background-image: linear-gradient(
+    to right,
+    rgb(108, 5, 156),
+    rgb(163, 22, 163)
+  );
+  width: 299px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  color: aliceblue;
+  font-size: 25px;
+  cursor: pointer;
+}
+.alarm-table {
+  padding-top: 10px;
+  height: 117px;
+  width: 253px;
+  background-color: rgb(172, 145, 199);
+  text-align: center;
+  border-radius: 5px;
+  color: rgb(177, 11, 155);
+}
+.alarm-timmings {
+  height: 120px;
+  width: 566px;
+  display: flex;
+}

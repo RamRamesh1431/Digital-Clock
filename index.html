@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Digital Clock</title>
+  </head>
+  <body>
+    <div class="box3">
+      <div class="box1">
+        <div class="logo">
+          <img src="./images/clock_logo.png" alt="clock" />
+        </div>
+        <div class="setalarm">
+          <div class="wakeup-time">
+            <img src="./images/wake_up.svg" alt="sun" />
+            <span>Set Wakeup time</span>
+            <form>
+              <select class="wakeuptime-dropdown" onclick="func()"></select>
+            </form>
+          </div>
+          <div class="line"></div>
+          <div class="lunch-time">
+            <img src="./images/lunch_time.svg" alt="sun" />
+            <span>Set lunch time</span>
+            <form>
+              <select class="lunhtime-dropdown" name="lunch"></select>
+            </form>
+          </div>
+          <div class="line"></div>
+          <div class="nap-time">
+            <img src="./images/nap_time.svg" alt="sun" />
+            <span>Set nap time</span>
+            <form>
+              <select class="naptime-dropdown"></select>
+            </form>
+          </div>
+          <div class="line"></div>
+          <div class="night-time">
+            <img src="./images/wake_up.svg" alt="sun" />
+            <span>Set night time</span>
+            <form>
+              <select class="nighttime-dropdown"></select>
+            </form>
+          </div>
+        </div>
+        <div class="whishing">GOOD MORNIG!! WAKEUP!</div>
+        <div class="alarm-timmings">
+          <button onclick="change()">Set Alarm</button>
+          <div class="alarm-table">
+            <p>Wake Up Time:<span class="wdrop">10AM-11Am</span></p>
+            <p>Lunch Time:<span class="ldrop">12PM-1PM</span></p>
+            <p>Nap Time:<span class="ndrop">4PM-5PM</span></p>
+            <p>Night Time:<span class="nidrop">8PM-9PM</span></p>
+          </div>
+        </div>
+      </div>
+      <!-- box2 -->
+      <div class="box2">
+        <div class="time">
+          <div class="time1">
+            <div class="timeinside">TIME</div>
+            <div class="hrs">
+              <span class="hrs1">00</span>
+              <p>hours</p>
+            </div>
+            <div>:</div>
+            <div class="min">
+              <span class="min1">00</span>
+              <p>mins</p>
+            </div>
+            <div>:</div>
+            <div class="sec">
+              <span class="sec1">00</span>
+              <p>secs</p>
+            </div>
+            <div class="session1">AM</div>
+          </div>
+          <div class="time2"></div>
+          <div class="time3"></div>
+        </div>
+
+        <div class="phrase">GRAB SOME HEALTHY BREAKFAST</div>
+        <div class="photos">
+          <img src="./images/lunch_image.png" alt="photos" class="images" />
+        </div>
+      </div>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
